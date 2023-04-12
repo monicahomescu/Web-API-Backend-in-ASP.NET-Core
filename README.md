@@ -1,4 +1,4 @@
-# Web-API-in-ASP.NET-Core
+# Web-API-Backend-in-ASP.NET-Core
 
 Application that manages 3 entities: `Movies`, `Screenings` and `Guests`. The first two entities are in a `1 to many` relation and the last two are in a `many to many` relation added as a separate entity `Tickets`. Attributes are handled by using `DTOs` in order to manage visibility. Storage is added to a database including `migrations` to automatically update changes. 
 
